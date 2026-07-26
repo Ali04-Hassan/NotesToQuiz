@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --blueprint: #0b3d63;
+  --blueprint-dark: #082b47;
+  --blueprint-line: #1f5c8f;
+  --paper: #f5f3ee;
+  --ink: #1a1a1a;
+  --accent: #ff8c42;
+  --good: #2f9e5c;
+  --bad: #d64545;
+}
+
+@theme inline {
+  --color-blueprint: var(--blueprint);
+  --color-blueprint-dark: var(--blueprint-dark);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-accent: var(--accent);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.blueprint-grid {
+  background-color: var(--blueprint);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
