@@ -159,4 +159,5 @@ studyforge/
 
 ## Author
 
+**Ali Hassan**
 Individual project — built solo for the Final Project assignment (Week 7).
