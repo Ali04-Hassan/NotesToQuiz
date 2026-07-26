@@ -7,7 +7,7 @@ before an exam.
 
 ## Live URL
 
-🔗 **[https://notestoquiz.vercel.app](https://notestoquiz.vercel.app)** *(replace with your actual deployed URL)*
+🔗 🔗 **[https://notes-to-quiz.vercel.app](https://notes-to-quiz.vercel.app)**
 
 ## The Problem It Solves
 
